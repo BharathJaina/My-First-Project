@@ -1,0 +1,244 @@
+@font-face{
+	font-family: 'Open Sans Condensed', sans-serif;	
+	src:url(../fonts/Open_Sans_Condensed/OpenSans-CondLightItalic.ttf);
+}
+body {
+	width:1366px;
+	background-color: #f0efef;
+	margin:auto;
+
+}
+
+	.wrap{
+		width:100%;
+		padding:0px;
+	}
+
+		header{
+			margin:0px;
+			margin-bottom: 10px;
+			position: fixed;
+			height: auto;
+			width:100%;
+			float: left;
+			background-color: #f0efef;
+			z-index:10;
+			overflow:hidden;
+		}
+
+			#logo{
+				font-size: 31px;
+				font-weight: 300;
+				width:230px;
+				display: block;
+				padding: 10px;
+				float:left;
+				border-right: 1px solid black	;
+			}
+
+				#logo span{
+					 font-weight: 600;
+				}
+
+			.search{
+			float: right;
+			padding: 10px;
+			}
+
+			#menu{
+				max-width: 680px;
+				margin:0px;
+				float:left;
+				padding: 10px;
+			}
+nav li{
+	font-size: 20px;
+	display:inline;
+	padding-left: 20px;
+}
+nav a{
+	font-family: sans-serif;
+	color: #808080;
+	font-weight:400;
+	text-decoration: none;
+	padding-top: 10px;
+}
+nav ul{
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+nav a:hover{
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+
+ 
+
+.hero{
+	height:522px;
+	width:1366px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-image: url("../images/workflow.jpg");
+	background-repeat: no-repeat;
+	-webkit-background-size: 100% 98%;
+ -o-background-size: 100% 100%;	
+	
+}
+#background-image{
+	margin:0px !important;
+}
+.hero span {
+	font-size: 50px;
+	font-style: italic;
+	font-family: 'Open Sans Condensed',sans-serif;
+	font-weight: 50;
+	display: block;
+	color:#ffffff;
+	height:auto;
+	text-align:center;
+	padding: 175px 280px;
+} 
+.container_12{
+margin: auto;
+	}
+.spacer{
+	float: left;
+	width:125px;
+	margin:10px;
+	height: auto;
+}
+ .toolInfo{
+	margin:10px;
+	float: left;
+	overflow: hidden;
+
+}
+.toolInfo h2{
+	display: inherit;
+	color:#808080;
+	text-align: center;
+	font-size: 35px;
+	padding: 50px 0px;
+}
+.toolInfo p{
+	display:inherit;
+}
+.tools{
+	float:right;
+	overflow: hidden;
+}
+.tools li{
+	display: inline;
+	padding-right: 28px;
+}
+
+.prespacer{
+	float: left;
+	width:200px;
+	margin:10px;
+	height: auto;
+} 
+li{
+	display: inline;
+}
+
+.images{
+	padding-top: 85px;
+}
+.images img{
+	width: 280px;
+	height: 280px;
+	border:1px solid #808080;
+	border-radius: 20px;
+	margin:14.2px;
+}
+.images div{
+	margin-top: 15px;
+	border:2px solid #f0efef;
+	position: relative;
+}
+.desc{
+	font-size: 40px;
+
+	font-style: italic;
+	font-weight: 500;
+	position: absolute;
+	top:-40px;
+	bottom: 0;
+	left:0px;
+	right: 0;
+	visibility: hidden;
+}
+.wildlife:hover{
+	border:2px solid grey;
+	content:"Wildlife Photography";
+	/* opacity: 0.5;*/
+	} 
+.wildlife:hover .img{
+	opacity: 0.5;
+}
+.wildlife:hover .desc{
+	visibility: visible;
+	opacity: 1;
+	z-index: 20;
+		color: black;
+}
+.birds:hover{
+	border:2px solid grey;
+	content:"Wildlife Photography";
+	/* opacity: 0.5;*/
+	} 
+.birds:hover .img{
+	opacity: 0.5;
+}
+.birds:hover .desc{
+	visibility: visible;
+	opacity: 1;
+	z-index: 20;
+		color: black;
+}
+
+.miscellaneous:hover{
+	border:2px solid grey;
+	content:"Wildlife Photography";
+	/* opacity: 0.5;*/
+	} 
+.miscellaneous:hover .img{
+	opacity: 0.5;
+}
+.miscellaneous:hover .desc{
+	visibility: visible;
+	opacity: 1;
+	z-index: 20;
+		color: black;
+}
+
+
+
+footer{
+	width: 98.5%;
+	background-color: #808080;
+	padding: 10px;
+	margin:30px 0px 0px 0px;
+	color:#b0b0b0;
+}
+.first span{
+	font-size: 31px;
+	font-weight: 300;
+}
+.first span span{
+	font-weight: 600;
+}
+.second ul{
+	float:right;
+}
+.second li{
+	display: inline;
+}
+.second img{
+	width:20px;
+	height: 20px;
+	padding: 10px;
+}
